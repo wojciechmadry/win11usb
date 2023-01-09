@@ -13,3 +13,7 @@ This script based on [this tutorial](https://nixaid.com/bootable-usb-windows-lin
 
 4. Type `y`, when script ask for permission
 
+## Using the Docker (with Makefile)
+1. Build docker image: `make build`
+2. Run docker and flash image: `sudo make flash device=<DEVICE> iso=<ISO_PATH>`
+
